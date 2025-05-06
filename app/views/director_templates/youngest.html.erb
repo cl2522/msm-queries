@@ -1,0 +1,7 @@
+<p>
+  Our youngest director is
+  <a href="/directors/<%= @the_youngest_director.id %>">
+    <%= @the_youngest_director.name %>
+  </a>,
+  born on <%= @the_youngest_director.dob.strftime("%B %-d, %Y") %>.
+</p>
